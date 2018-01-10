@@ -1,0 +1,178 @@
+@import url('reset.css');
+
+/*Global*/
+body{
+	background: #ecf0f1;	
+}
+
+ul,li {
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: #2c3e50;
+}
+
+
+/*Header Principal*/
+
+header{
+	width: 100%;
+	float: left;
+	background: #2980b9;
+	color: #fff;
+	box-shadow: 0px 1px 1px #111;
+		-moz-box-shadow: 0px 1px 1px #111;
+		-webkit-box-shadow: 0px 1px 1px #111;
+	margin-bottom: 20px;	
+}
+
+#subheader {
+	width: 90%;
+	margin: auto;
+}
+
+#logotipo {
+	float: left;
+	width: 40%;
+	padding: 10px 0px;
+}
+
+#logotipo a {
+	font-family: Arial;
+	font-size: 40px;
+	color: #FFF;
+}
+
+#logotipo a:hover {text-decoration: none;}
+
+
+/*--- Menu ---*/
+
+header #subheader nav {
+	float: left;
+	width: 660px;
+	padding: 30px 0px;
+	text-align:right;
+}
+
+header #subheader nav ul li {
+	display: inline;
+	font-family: Arial;
+
+}
+
+header #subheader nav ul li a {
+	color: #fff;
+	font-size: 20 px;
+	padding: 10px;
+		border-radius: 2px;
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+}
+
+header #subheader nav ul li a:hover {
+	color: #fff;
+	background: #3498db;
+	text-decoration: none;
+}
+
+/*main*/
+#wrap{
+	width: 80%;
+	margin:auto;
+	padding-top: 60px;	
+	clear: both;
+
+}
+
+
+/*enlaces*/
+
+#enlaces{
+	width: 100%;	
+}
+
+#enlaces .servicios{
+	width: 40%;
+} 
+
+#enlaces div{
+	display: inline-block;
+	background: #1abc9c;
+	border-radius: 5px;
+		-moz-border-radius: 5px;
+		-wevkit-border-radius: 5px;
+	box-shadow: 0px 2px 3px #000;
+	 	-moz-box-shadow: 0px 2px 3px #000;
+	 	-webkit-box-shadow: 0px 2px 3px #000;
+	 padding: 10px 10px;
+		
+	width: 25%;
+	height: 40px;
+	margin: auto;
+	margin-bottom: 30px;
+	margin-right: 5%;	
+	text-align: center;
+	font-size: 2em;
+}
+
+
+
+#enlaces div:hover{
+	background: #16a085;
+}
+
+#enlaces div a{	
+	font-family: Arial;
+	color: #fff;	
+	text-align: center;
+	/*padding: 4% 28% 5% 28%;*/
+}
+
+/*tablas*/
+
+table {
+	border:1px solid black;
+	background: #1abc9c;
+	color: #2c3e50;
+}
+
+
+table#info{
+	font-size: 18px;
+    font-family: Arial;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+#info th {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+#info tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#info td, #info th {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}

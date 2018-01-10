@@ -1,0 +1,56 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 5/03/2017, 06:43:04 PM
+    Author     : Diana Bernal
+*/
+
+form 
+{
+    width: 30%;
+    border: 1px solid #CCCCCC; 
+    margin: 30px;
+    padding: 20px;
+    margin-left: 30%;
+    box-shadow: 2px 2px 2px #CCCCCC;
+}
+
+label
+{
+    font-size: 14px;
+    display: block;
+    width: 100%; 
+    font-family: sans-serif;
+}
+
+input{
+    font-size: 14px;
+    width: 100%;
+    display: block;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    border: 1px solid #CCCCCC;
+    padding: 10px;
+}
+
+input:focus
+{
+    border: 1px solid #1668C4;    
+}
+
+input[type="submit"]
+{
+    margin-bottom: 0px;
+    background: #1668C4;
+    color: #FFFFFF;
+    border: none;
+}
+
+input[type="submit"]:hover
+{
+    background: #4A88F4;
+    cursor: pointer;
+}
